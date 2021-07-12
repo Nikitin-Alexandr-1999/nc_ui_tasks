@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  /* background-color: rgba(157, 184, 243, 0); */
+  background: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #000e4e;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Times, 'Times New Roman'; /* Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-size: 24pt;
+  font-weight: normal;
+}
+
+p {
+  margin: 10px;
+}
+
+table {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Container 
+=================*/
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+/* Header 
+=================*/
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #8b9cffb7 url(../images/background_black.jpg) center no-repeat;
+  color: #fff;
+  /* position: absolute; */
+  /* z-index: 1000; */
+}
+
+.header_all_info {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0;
+  padding-bottom: 0;
+}
+
+.person_info {
+  width:500px;
+  /* border: 1px solid black; */
+}
+
+.person_photo {
+  height: 320px;
+  width: 240px;
+  border-radius: 8px;
+  /* border: 1px solid black; */
+  /* margin-top: 30px;
+  margin-left: 30px; */
+}
+
+
+
+/* Contacts
+============================================================================= */
+.contacts { 
+  background-color: rgba(213, 221, 221, 0.384); 
+}
+
+.contact_link {
+  color: #fff;
+}
+
+.contacts_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts_part:first-child, .contacts_part:last-child { margin-left: 30px; }
+
+.right_contacts { margin-right: 30px; }
+
+.phone_icon, .whats_app_icon, .vk_icon, .mail_icon, .telegram_icon, .instagram_icon {
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: -2px;
+}
+
+.work_block {
+  text-align: center;
+}
+
+ul.unofficial_work_list li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  padding: 3px;
+}
+
+table.work_table{
+  border: 5px solid grey;
+}
+
+table.work_table tr {
+  border: 2px solid grey;
+}
+
+table.work_table th {
+  border: 2px solid grey;
+  text-align: left;
+  padding-left: 10px;
+}
